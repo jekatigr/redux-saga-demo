@@ -1,0 +1,6 @@
+export const TRIGGER_LOAD = 'EXAMPLE 2 / TRIGGER_LOAD';
+
+export const LOADING_START = 'EXAMPLE 2 / LOADING_START';
+export const LOADING_SUCCESS  = 'EXAMPLE 2 / LOADING_SUCCESS';
+
+export const RESET = 'EXAMPLE 2 / RESET';
