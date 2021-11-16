@@ -10,28 +10,28 @@ const examples = [
         component: <Example1 />,
         files: [{
             name: 'Example1.jsx',
-            url: 'https://raw.githubusercontent.com/jekatigr/redux-saga-demo/blob/master/components/Example1.jsx',
+            url: 'https://raw.githubusercontent.com/jekatigr/redux-saga-demo/master/components/Example1.jsx',
         }]
     },
     {
         component: <Example2 />,
         files: [{
             name: 'Example2.jsx',
-            url: 'https://raw.githubusercontent.com/jekatigr/redux-saga-demo/blob/master/components/Example2.jsx',
+            url: 'https://raw.githubusercontent.com/jekatigr/redux-saga-demo/master/components/Example2.jsx',
         }]
     },
     {
         component: <Example3 />,
         files: [{
             name: 'Example3.jsx',
-            url: 'https://raw.githubusercontent.com/jekatigr/redux-saga-demo/blob/master/components/Example3.jsx',
+            url: 'https://raw.githubusercontent.com/jekatigr/redux-saga-demo/master/components/Example3.jsx',
         }]
     },
     {
         component: <Example4 />,
         files: [{
             name: 'Example4.jsx',
-            url: 'https://raw.githubusercontent.com/jekatigr/redux-saga-demo/blob/master/components/Example4.jsx',
+            url: 'https://raw.githubusercontent.com/jekatigr/redux-saga-demo/master/components/Example4.jsx',
         }]
     },
 ];
