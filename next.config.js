@@ -1,3 +1,3 @@
 module.exports = {
-    assetPrefix: !!process.env.CI ? '/jekatigr/' : '',
+    assetPrefix: process.env.MODE === 'production' ? '/jekatigr/' : '',
 }
