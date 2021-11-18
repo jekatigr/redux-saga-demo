@@ -11,7 +11,8 @@ it('test watcher saga', () => {
         .put({ type: SAGA_START })
         .put({ type: SAGA_FINISH })
         .dispatch({ type: TRIGGER_SAGA })
-        .run(100).then(() => {
+        .run(100)
+        .then(() => {
             expect(mockDelay).toHaveBeenCalledWith(1000);
         });
 });

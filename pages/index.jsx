@@ -48,14 +48,17 @@ const examples = [
             name: 'Example4.jsx',
             url: 'https://raw.githubusercontent.com/jekatigr/redux-saga-demo/master/components/Example4.jsx',
         },{
+            name: 'delay.js',
+            url: 'https://raw.githubusercontent.com/jekatigr/redux-saga-demo/master/store/delay.js',
+        },{
+            name: 'middleware',
+            url: 'https://raw.githubusercontent.com/jekatigr/redux-saga-demo/master/store/index.js',
+        },{
             name: 'saga.js',
             url: 'https://raw.githubusercontent.com/jekatigr/redux-saga-demo/master/store/example4/saga.js',
         },{
             name: 'saga.test.js',
             url: 'https://raw.githubusercontent.com/jekatigr/redux-saga-demo/master/store/example4/saga.test.js',
-        },{
-            name: 'middleware',
-            url: 'https://raw.githubusercontent.com/jekatigr/redux-saga-demo/master/store/index.js',
         }]
     },
 ];
