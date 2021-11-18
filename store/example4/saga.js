@@ -1,6 +1,6 @@
 import { put, takeLatest, getContext, call } from 'redux-saga/effects'
-import { TRIGGER_SAGA } from "./constants";
-import { startSaga, finishSaga } from "./actions";
+import { TRIGGER_SAGA } from './constants';
+import { startSaga, finishSaga } from './actions';
 
 function* saga() {
     const delay = yield getContext('delay');

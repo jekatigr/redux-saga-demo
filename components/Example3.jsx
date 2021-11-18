@@ -1,6 +1,6 @@
-import { useDispatch, useSelector } from "react-redux";
-import { triggerLeading, triggerLatest, reset } from "../store/example3/actions";
-import {useState} from "react";
+import { useState } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { triggerLeading, triggerLatest, reset } from '../store/example3/actions';
 
 function Example3() {
     const dispatch = useDispatch();

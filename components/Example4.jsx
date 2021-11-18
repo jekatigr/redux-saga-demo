@@ -1,5 +1,5 @@
-import { useDispatch, useSelector } from "react-redux";
-import { triggerSaga } from "../store/example4/actions";
+import { useDispatch, useSelector } from 'react-redux';
+import { triggerSaga } from '../store/example4/actions';
 
 function Example4() {
     const dispatch = useDispatch();

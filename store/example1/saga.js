@@ -10,9 +10,8 @@ function* loadingSaga({ payload: timeout }) {
     yield put(finishLoad());
 }
 
-function* watcherSaga1() {
+function* watcherSaga() {
     yield takeLatest(TRIGGER_LOAD, loadingSaga);
 }
 
-export default watcherSaga1;
-
+export default watcherSaga;

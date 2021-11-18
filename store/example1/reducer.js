@@ -1,4 +1,4 @@
-import { LOADING_START, LOADING_SUCCESS, RESET } from "./constants";
+import { LOADING_START, LOADING_SUCCESS, RESET } from './constants';
 
 const States = {
     READY: 'ready',

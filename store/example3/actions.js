@@ -1,4 +1,4 @@
-import { TRIGGER_LATEST, TRIGGER_LEADING, RESET, LEADING_START, LATEST_STOP, LATEST_START, LEADING_STOP } from "./constants";
+import { TRIGGER_LATEST, TRIGGER_LEADING, RESET, LEADING_START, LATEST_STOP, LATEST_START, LEADING_STOP } from './constants';
 
 export const triggerLeading = (runId) => ({ type: TRIGGER_LEADING, payload: runId });
 export const leadingStart = () => ({ type: LEADING_START });

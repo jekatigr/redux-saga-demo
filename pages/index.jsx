@@ -11,6 +11,12 @@ const examples = [
         files: [{
             name: 'Example1.jsx',
             url: 'https://raw.githubusercontent.com/jekatigr/redux-saga-demo/master/components/Example1.jsx',
+        },{
+            name: 'saga.js',
+            url: 'https://raw.githubusercontent.com/jekatigr/redux-saga-demo/master/store/example1/saga.js',
+        },{
+            name: 'reducer.js',
+            url: 'https://raw.githubusercontent.com/jekatigr/redux-saga-demo/master/store/example1/reducer.js',
         }]
     },
     {
@@ -18,6 +24,9 @@ const examples = [
         files: [{
             name: 'Example2.jsx',
             url: 'https://raw.githubusercontent.com/jekatigr/redux-saga-demo/master/components/Example2.jsx',
+        },{
+            name: 'saga.js',
+            url: 'https://raw.githubusercontent.com/jekatigr/redux-saga-demo/master/store/example2/saga.js',
         }]
     },
     {
@@ -25,6 +34,12 @@ const examples = [
         files: [{
             name: 'Example3.jsx',
             url: 'https://raw.githubusercontent.com/jekatigr/redux-saga-demo/master/components/Example3.jsx',
+        },{
+            name: 'saga.js',
+            url: 'https://raw.githubusercontent.com/jekatigr/redux-saga-demo/master/store/example3/saga.js',
+        },{
+            name: 'reducer.js',
+            url: 'https://raw.githubusercontent.com/jekatigr/redux-saga-demo/master/store/example3/reducer.js',
         }]
     },
     {
@@ -32,6 +47,15 @@ const examples = [
         files: [{
             name: 'Example4.jsx',
             url: 'https://raw.githubusercontent.com/jekatigr/redux-saga-demo/master/components/Example4.jsx',
+        },{
+            name: 'saga.js',
+            url: 'https://raw.githubusercontent.com/jekatigr/redux-saga-demo/master/store/example4/saga.js',
+        },{
+            name: 'saga.test.js',
+            url: 'https://raw.githubusercontent.com/jekatigr/redux-saga-demo/master/store/example4/saga.test.js',
+        },{
+            name: 'middleware',
+            url: 'https://raw.githubusercontent.com/jekatigr/redux-saga-demo/master/store/index.js',
         }]
     },
 ];
@@ -59,7 +83,8 @@ function IndexPage() {
                 {examples[tab].component}
             </div>
             <div className="examples__sources">
-                Files:
+                <hr />
+                File:
                 <select className="examples__sources-list" name="fileName" onChange={handleUrlSelected} value={selectedUrl}>
                     {examples[tab].files.map(f => (
                         <option value={f.url} key={f.url}>{f.name}</option>

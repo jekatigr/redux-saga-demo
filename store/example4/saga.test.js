@@ -15,4 +15,3 @@ it('test watcher saga', () => {
             expect(mockDelay).toHaveBeenCalledWith(1000);
         });
 });
-

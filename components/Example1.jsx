@@ -1,6 +1,6 @@
-import { useDispatch, useSelector } from "react-redux";
-import { loadReset } from "../store/example1/actions";
-import {TRIGGER_LOAD} from "../store/example1/constants";
+import { useDispatch, useSelector } from 'react-redux';
+import { loadReset } from '../store/example1/actions';
+import {TRIGGER_LOAD} from '../store/example1/constants';
 
 function Example1() {
     const dispatch = useDispatch();

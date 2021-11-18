@@ -1,4 +1,4 @@
-import { RESET, LATEST_START, LEADING_START, LEADING_STOP, LATEST_STOP } from "./constants";
+import { RESET, LATEST_START, LEADING_START, LEADING_STOP, LATEST_STOP } from './constants';
 
 const initialState = {
     leading: {

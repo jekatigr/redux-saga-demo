@@ -1,4 +1,4 @@
-import { LOADING_START, LOADING_SUCCESS, RESET, TRIGGER_LOAD } from "./constants";
+import { LOADING_START, LOADING_SUCCESS, RESET, TRIGGER_LOAD } from './constants';
 
 export const triggerLoad = () => ({ type: TRIGGER_LOAD });
 
